@@ -27,6 +27,7 @@ import Error from "./pages/Error"
 import ForgotPassword from "./pages/ForgotPassword"
 // Pages
 import Home from "./pages/Home"
+import Policy from "./pages/Policy"
 import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import UpdatePassword from "./pages/UpdatePassword"
@@ -57,6 +58,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="courses/:courseId" element={<CourseDetails />} />
         <Route path="catalog/:catalogName" element={<Catalog />} />
+
+         {/* Privacy, Cookie, and Terms routes */}
+        <Route path="/privacy-policy" element={<Policy />} />
+
         {/* Open Route - for Only Non Logged in User */}
         <Route
           path="login"

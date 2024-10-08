@@ -8,7 +8,11 @@ import Logo from "../../assets/Logo/Logo-Full-Light.png";
 // Icons
 import { FaFacebook, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
 
-const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
+const BottomFooter = [
+  { title: "Privacy Policy", link: "/privacy-policy" },
+  { title: "Cookie Policy", link: "/cookie-policy" },
+  { title: "Terms", link: "/terms" },
+];
 const Resources = [
   "Articles",
   "Blog",
@@ -164,8 +168,8 @@ const Footer = () => {
                       : "border-r border-richblack-700 cursor-pointer hover:text-richblack-50 transition-all duration-200"
                   } px-3 `}
                 >
-                  <Link to={ele.split(" ").join("-").toLocaleLowerCase()}>
-                    {ele}
+                  <Link to={ele.link}>
+                    {ele.title}
                   </Link>
                 </div>
               );
