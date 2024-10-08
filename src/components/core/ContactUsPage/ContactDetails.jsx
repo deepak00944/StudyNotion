@@ -7,20 +7,20 @@ const contactDetails = [
   {
     icon: "HiChatBubbleLeftRight",
     heading: "Chat on us",
-    description: "Our friendly team is here to help.",
-    details: "info@studynotion.com",
+    description: "We are here to help.",
+    details: "infostudynotion2024@gmail.com",
   },
   {
     icon: "BiWorld",
     heading: "Visit us",
-    description: "Come and say hello at our office HQ.",
+    description: "Our office:",
     details:
-      "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
+      "Ankur Complex, Phase IV, Shivaji Nagar, Bhopal-462016 ",
   },
   {
     icon: "IoCall",
     heading: "Call us",
-    description: "Mon - Fri From 8am to 5pm",
+    description: "Mon - Fri From 10am to 5pm",
     details: "+123 456 7869",
   },
 ]
