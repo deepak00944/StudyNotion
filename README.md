@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d812f93c-5277-418c-9b28-843e16c3eca8)# 🎓 Study Notion – Full Stack EdTech Platform
+# 🎓 Study Notion – Full Stack EdTech Platform
 
 **Study Notion** is a full-fledged, production-ready EdTech platform that allows instructors to create and manage courses while students can browse, purchase, and access them. Built with a modern tech stack, it simulates the real-world experience of platforms like Udemy or Coursera.
 
