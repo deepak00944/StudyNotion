@@ -97,7 +97,7 @@ Frontend: http://localhost:5173
 Backend API: http://localhost:5000
 ```
 
-📷 Screenshots
+## 📷 Screenshots
 ![image](https://github.com/user-attachments/assets/228e29cb-7c35-47c0-bfbc-7de5b66b4b2b)
 ![image](https://github.com/user-attachments/assets/8778c376-4b6f-4695-b0b8-669b6af66b62)
 ![image](https://github.com/user-attachments/assets/5da49e19-a0de-444d-bfc7-e2213ea2584a)
